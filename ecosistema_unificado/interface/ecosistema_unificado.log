@@ -1,0 +1,15 @@
+2025-09-26 19:26:39,432 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-26 19:26:39,462 - INFO - Ecosistema inicializado correctamente
+2025-09-26 19:26:39,648 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-26 19:26:41,093 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-26 19:26:41,093 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-26 19:47:00,863 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-26 19:47:00,863 - INFO - Ecosistema inicializado correctamente
+2025-09-26 19:47:00,869 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-26 19:47:01,562 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-26 19:47:01,562 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-26 19:52:29,952 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-26 19:52:29,965 - INFO - Ecosistema inicializado correctamente
+2025-09-26 19:52:29,965 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-26 19:52:30,545 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-26 19:52:30,545 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'

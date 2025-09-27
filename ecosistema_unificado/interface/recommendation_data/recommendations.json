@@ -1,0 +1,1 @@
+{"recommendations": [{"recommendation": {"id": "sys_mem_1758934356", "type": "warning", "priority": 4, "title": "Alto uso de memoria detectado", "description": "El uso de memoria est\u00e1 en 86.5%. Libera recursos no utilizados.", "action": "free_memory", "parameters": {"current_usage": 86.5}, "confidence": 0.85, "timestamp": 

@@ -1,0 +1,123 @@
+2025-09-24 20:11:12,379 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 20:11:12,381 - INFO - Ecosistema inicializado correctamente
+2025-09-24 20:11:12,381 - INFO - === INICIANDO DEMOSTRACIÓN COMPLETA DEL ECOSISTEMA ===
+2025-09-24 20:11:12,381 - INFO - Cargando dataset: mnist
+2025-09-24 20:11:26,690 - INFO - Dataset cargado: {'samples': 42000, 'input_shape': (28, 28, 1), 'num_classes': 10, 'class_distribution': {0: 4146, 1: 4720, 2: 4170, 3: 4292, 4: 4090, 5: 3795, 6: 4142, 7: 4385, 8: 4096, 9: 4164}, 'data_type': dtype('float32'), 'data_range': (0.0, 1.0)}
+2025-09-24 20:11:26,692 - INFO - Creando modelo: cnn
+2025-09-24 20:11:27,193 - INFO - Modelo cnn creado exitosamente
+2025-09-24 20:11:27,193 - INFO - Iniciando entrenamiento por 3 épocas
+2025-09-24 20:11:30,716 - ERROR - Error durante el entrenamiento: Shape must be rank 1 but is rank 0 for '{{node in_top_k/InTopKV2}} = InTopKV2[T=DT_INT32](sequential_1/dense_1_2/Softmax, ArgMax_1, in_top_k/InTopKV2/k)' with input shapes: [?,10], [], [].
+2025-09-24 20:11:31,111 - ERROR - Error durante la evaluación: Shape must be rank 1 but is rank 0 for '{{node in_top_k/InTopKV2}} = InTopKV2[T=DT_INT32](sequential_1/dense_1_2/Softmax, ArgMax_1, in_top_k/InTopKV2/k)' with input shapes: [32,10], [], [].
+2025-09-24 20:11:31,113 - INFO - Creando modelo: rnn
+2025-09-24 20:11:31,116 - ERROR - Error creando modelo rnn: __init__() got an unexpected keyword argument 'num_classes'
+2025-09-24 20:11:31,116 - INFO - Creando modelo: gan
+2025-09-24 20:11:31,391 - INFO - Modelo gan creado exitosamente
+2025-09-24 20:11:44,310 - INFO - Iniciando optimización random_search para modelo cnn
+2025-09-24 20:11:44,314 - INFO - Creando modelo: cnn
+2025-09-24 20:11:44,318 - ERROR - Error creando modelo cnn: __init__() got an unexpected keyword argument 'learning_rate'
+2025-09-24 20:11:44,319 - INFO - Creando modelo: cnn
+2025-09-24 20:11:44,322 - ERROR - Error creando modelo cnn: __init__() got an unexpected keyword argument 'learning_rate'
+2025-09-24 20:11:44,323 - INFO - Creando modelo: cnn
+2025-09-24 20:11:44,327 - ERROR - Error creando modelo cnn: __init__() got an unexpected keyword argument 'learning_rate'
+2025-09-24 20:11:44,327 - INFO - Creando modelo: cnn
+2025-09-24 20:11:44,330 - ERROR - Error creando modelo cnn: __init__() got an unexpected keyword argument 'learning_rate'
+2025-09-24 20:11:44,331 - INFO - Creando modelo: cnn
+2025-09-24 20:11:44,333 - ERROR - Error creando modelo cnn: __init__() got an unexpected keyword argument 'learning_rate'
+2025-09-24 20:11:44,334 - INFO - Resumen de optimización: {'message': 'No se ha ejecutado ninguna optimización'}
+2025-09-24 20:11:44,337 - INFO - Iniciando evolución por 3 generaciones
+2025-09-24 20:23:01,820 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 20:23:01,820 - INFO - Ecosistema inicializado correctamente
+2025-09-24 20:23:01,820 - INFO - === INICIANDO DEMOSTRACIÓN COMPLETA DEL ECOSISTEMA ===
+2025-09-24 20:23:01,824 - INFO - Cargando dataset: mnist
+2025-09-24 20:23:03,075 - INFO - Dataset cargado: {'samples': 42000, 'input_shape': (28, 28, 1), 'num_classes': 10, 'class_distribution': {0: 4146, 1: 4720, 2: 4170, 3: 4292, 4: 4090, 5: 3795, 6: 4142, 7: 4385, 8: 4096, 9: 4164}, 'data_type': dtype('float32'), 'data_range': (0.0, 1.0)}
+2025-09-24 20:23:03,075 - INFO - Creando modelo: cnn
+2025-09-24 20:23:03,075 - ERROR - Error creando modelo cnn: Arquitectura no soportada: simple
+2025-09-24 20:24:00,510 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 20:24:00,512 - INFO - Ecosistema inicializado correctamente
+2025-09-24 20:24:00,513 - INFO - === INICIANDO DEMOSTRACIÓN COMPLETA DEL ECOSISTEMA ===
+2025-09-24 20:24:00,513 - INFO - Cargando dataset: mnist
+2025-09-24 20:24:01,736 - INFO - Dataset cargado: {'samples': 42000, 'input_shape': (28, 28, 1), 'num_classes': 10, 'class_distribution': {0: 4146, 1: 4720, 2: 4170, 3: 4292, 4: 4090, 5: 3795, 6: 4142, 7: 4385, 8: 4096, 9: 4164}, 'data_type': dtype('float32'), 'data_range': (0.0, 1.0)}
+2025-09-24 20:24:01,737 - INFO - Creando modelo: cnn
+2025-09-24 20:24:02,643 - INFO - Modelo cnn creado exitosamente
+2025-09-24 20:24:02,643 - INFO - Iniciando entrenamiento por 2 épocas
+2025-09-24 20:24:07,280 - ERROR - Error durante el entrenamiento: Shape must be rank 1 but is rank 0 for '{{node in_top_k/InTopKV2}} = InTopKV2[T=DT_INT32](sequential_1/dense_1_2/Softmax, ArgMax_1, in_top_k/InTopKV2/k)' with input shapes: [?,10], [], [].
+2025-09-24 20:24:07,836 - ERROR - Error durante la evaluación: Shape must be rank 1 but is rank 0 for '{{node in_top_k/InTopKV2}} = InTopKV2[T=DT_INT32](sequential_1/dense_1_2/Softmax, ArgMax_1, in_top_k/InTopKV2/k)' with input shapes: [32,10], [], [].
+2025-09-24 20:50:07,812 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 20:50:07,817 - INFO - Ecosistema inicializado correctamente
+2025-09-24 20:50:07,832 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 20:50:07,835 - INFO - === INICIANDO DEMOSTRACIÓN COMPLETA DEL ECOSISTEMA ===
+2025-09-24 20:50:07,837 - INFO - Cargando dataset: mnist
+2025-09-24 20:50:09,858 - INFO - Dataset cargado: {'samples': 42000, 'input_shape': (28, 28, 1), 'num_classes': 10, 'class_distribution': {0: 4146, 1: 4720, 2: 4170, 3: 4292, 4: 4090, 5: 3795, 6: 4142, 7: 4385, 8: 4096, 9: 4164}, 'data_type': dtype('float32'), 'data_range': (0.0, 1.0)}
+2025-09-24 20:50:09,863 - INFO - Creando modelo: cnn
+2025-09-24 20:50:09,876 - INFO - Directorios de modelos creados en: saved_models\cnn_models
+2025-09-24 20:50:12,631 - INFO - Modelo cnn creado exitosamente
+2025-09-24 20:50:12,631 - INFO - MODO ROBUSTO ACTIVADO - Entrenamiento para producción
+2025-09-24 20:50:12,632 - INFO - Épocas configuradas: 50
+2025-09-24 20:50:12,632 - INFO - Callbacks avanzados: EarlyStopping, ReduceLR, ModelCheckpoint, CSVLogger
+2025-09-24 20:50:12,633 - INFO - Iniciando entrenamiento por 50 épocas
+2025-09-24 20:51:06,484 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-24 20:51:06,691 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_1_20250924_205106_score_0.9825.
+2025-09-24 20:51:45,201 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-24 20:51:45,313 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_2_20250924_205145_score_0.9863.
+2025-09-24 20:52:23,064 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-24 20:52:23,210 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_3_20250924_205223_score_0.9888.
+2025-09-24 20:54:20,558 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-24 20:54:20,693 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_6_20250924_205420_score_0.9897.
+2025-09-24 20:55:01,127 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-24 20:55:01,258 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_7_20250924_205501_score_0.9902.
+2025-09-24 20:56:58,216 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_10_20250924_205658_score_0.9913.
+2025-09-24 20:56:58,216 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_10_periodic_20250924_205658_score_0.9913.
+2025-09-24 20:58:15,037 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_12_20250924_205815_score_0.9927.
+2025-09-24 21:01:31,656 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_17_20250924_210131_score_0.9942.
+2025-09-24 21:03:30,178 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\checkpoints\cnn_robust_50epochs_epoch_20_periodic_20250924_210330_score_0.9917.
+2025-09-24 21:04:51,403 - ERROR - Error guardando modelo: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=saved_models\cnn_models\best_models\cnn_final_50epochs_20250924_210451_score_0.9928.
+2025-09-24 21:04:51,406 - INFO - Entrenamiento completado
+2025-09-24 21:04:51,406 - INFO - Entrenamiento completado en 22 épocas
+2025-09-24 21:04:51,409 - INFO - Mejor val_loss alcanzado: 0.032936
+2025-09-24 21:04:55,182 - INFO - Resultados de evaluación: {'loss': 0.046611908823251724, 'compile_metrics': 0.9890000224113464}
+2025-09-24 22:16:04,387 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:16:04,403 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:16:04,408 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:16:05,409 - INFO - Could not import comtypes.gen, trying to create it.
+2025-09-24 22:16:05,411 - INFO - Created comtypes.gen directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:16:05,412 - INFO - Writing __init__.py file: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen\__init__.py'
+2025-09-24 22:16:05,437 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:16:05,486 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-09-24 22:16:05,499 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-09-24 22:16:05,721 - INFO - # Generating comtypes.gen.SpeechLib
+2025-09-24 22:16:05,735 - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-09-24 22:16:05,737 - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-09-24 22:16:05,749 - INFO - # Generating comtypes.gen.stdole
+2025-09-24 22:18:49,379 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:18:49,407 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:18:49,409 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:18:49,985 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-24 22:18:49,987 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:20:55,304 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:20:55,312 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:20:55,316 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:20:55,843 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-24 22:20:55,845 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:35:15,157 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:35:15,186 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:35:15,188 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:35:15,940 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-24 22:35:15,941 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:39:36,241 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:39:36,265 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:39:36,268 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:39:36,999 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\jhonj\\Desktop\\llama-models\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-24 22:39:37,000 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\Desktop\llama-models\env\lib\site-packages\comtypes\gen'
+2025-09-24 22:55:48,513 - INFO - Inicializando Ecosistema Unificado de Redes Neuronales
+2025-09-24 22:55:48,520 - INFO - Ecosistema inicializado correctamente
+2025-09-24 22:55:48,522 - INFO - Directorios de modelos creados en: saved_models\ecosystem
+2025-09-24 22:55:49,169 - INFO - Could not import comtypes.gen, trying to create it.
+2025-09-24 22:55:49,170 - INFO - Created comtypes.gen directory: 'C:\Users\jhonj\AppData\Roaming\Python\Python39\site-packages\comtypes\gen'
+2025-09-24 22:55:49,171 - INFO - Writing __init__.py file: 'C:\Users\jhonj\AppData\Roaming\Python\Python39\site-packages\comtypes\gen\__init__.py'
+2025-09-24 22:55:49,194 - INFO - Using writeable comtypes cache directory: 'C:\Users\jhonj\AppData\Roaming\Python\Python39\site-packages\comtypes\gen'
+2025-09-24 22:55:49,243 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-09-24 22:55:49,252 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-09-24 22:55:49,764 - INFO - # Generating comtypes.gen.SpeechLib
+2025-09-24 22:55:49,780 - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-09-24 22:55:49,782 - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-09-24 22:55:49,800 - INFO - # Generating comtypes.gen.stdole

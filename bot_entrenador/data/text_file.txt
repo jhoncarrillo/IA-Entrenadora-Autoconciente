@@ -1,0 +1,3 @@
+This is a sample text file.
+It contains several lines of text.
+Each line represents a piece of information.
